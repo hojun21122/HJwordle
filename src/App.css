@@ -1,38 +1,68 @@
-.App {
+.input1, .input2, .input3, .input4, .input5 {
+  width: 4vw;
+  height: 4vw;
+  font-size: 40px;
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid lightgray;
+  
+  margin-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btnSubmit{
+  margin-top: 20px;
+  border: 0px;
+  width: 8vw;
+  height: 4vw;
+  background-color: rgb(29, 127, 255);
   color: white;
+  font-weight: 700;
+  font-size: 1.2vw;
+  letter-spacing: 1px;
+  cursor: pointer;
+  justify-self: end;
+}
+.btnSubmit:hover{
+  background-color: rgb(6, 108, 167);
 }
 
-.App-link {
-  color: #61dafb;
+
+.btnRetry{
+  cursor: pointer;
+  margin-top: 20px;
+  border: 0px;
+  width: 8vw;
+  height: 4vw;
+  background-color: rgb(29, 127, 255);
+  color: white;
+  font-weight: 700;
+  font-size: 1.2vw;
+  letter-spacing: 1px;
+  visibility: hidden;
+}
+.btnRetry:hover{
+  background-color: rgb(6, 108, 167);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.retry{
+  
+  justify-self: start;  
+}
+
+.btnArea{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.App{
+  text-align: center;
+  margin-top: 70px;
+}
+
+h1{
+  font-size: 3vw;
+}
+a{
+  font-size: 1.5vw;
 }
