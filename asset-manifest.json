@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HJwordle/static/css/main.361bdc16.css",
-    "main.js": "/HJwordle/static/js/main.b6058bd9.js",
+    "main.js": "/HJwordle/static/js/main.ceee9550.js",
     "static/js/787.e01666d6.chunk.js": "/HJwordle/static/js/787.e01666d6.chunk.js",
     "index.html": "/HJwordle/index.html",
     "main.361bdc16.css.map": "/HJwordle/static/css/main.361bdc16.css.map",
-    "main.b6058bd9.js.map": "/HJwordle/static/js/main.b6058bd9.js.map",
+    "main.ceee9550.js.map": "/HJwordle/static/js/main.ceee9550.js.map",
     "787.e01666d6.chunk.js.map": "/HJwordle/static/js/787.e01666d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.361bdc16.css",
-    "static/js/main.b6058bd9.js"
+    "static/js/main.ceee9550.js"
   ]
 }
