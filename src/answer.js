@@ -1,5 +1,3 @@
-
-import words from './words.txt';
 var answer = [
     "about",
     "above",

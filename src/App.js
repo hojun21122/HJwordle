@@ -1,16 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import React, {useEffect, useRef, useState} from "react"
+import React, { useRef, useState} from "react"
 import Container from '@mui/material/Container';
 import answers from './answer';
 
+
+
+var num = Math.floor(Math.random() * 499);
 function App() {
-  var answer;
-  useEffect(()=>{
-    var num = Math.floor(Math.random() * 499);
-    answer = answers[num];
-  })
-  
+
   
   const ip1 = useRef();
   const ip2 = useRef();
@@ -20,7 +17,6 @@ function App() {
   const btnref = useRef();
   const rtyref = useRef();
   const input_field = [ip1, ip2, ip3, ip4, ip5];
-  const empty = useState('');
   const [input_val1, setInput1_val] = useState('');
   const [input_val2, setInput2_val] = useState('');
   const [input_val3, setInput3_val] = useState('');
@@ -28,7 +24,7 @@ function App() {
   const [input_val5, setInput5_val] = useState('');
   const input_array = [input_val1, input_val2, input_val3, input_val4, input_val5];
   const [lives, setLives] = useState(1);
-
+  var answer = answers[num];
   function check(){
     if(lives < 7){
       setLives(life => life+1);
@@ -98,7 +94,7 @@ function App() {
         </div>
         <div className='btnArea'>
           <button className='btnSubmit' onClick={check} ref={btnref}>SUBMIT</button>
-          <form action="/" className='retry' >
+          <form action="" className='retry' >
             <input type="submit" value="RETRY" className='btnRetry' ref={rtyref}></input>
           </form>
         </div>
